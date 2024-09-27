@@ -1,6 +1,6 @@
 # Online Store API using DRF
 
--This is an online store API built with Django Rest Framework to manage products, -categories, and orders.
+- This is an online store API built with Django Rest Framework to manage product categories and orders.
 
 ## Features
 - CRUD operations for Categories and Products
@@ -39,14 +39,14 @@
     python manage.py runserver
     ```
 
-## Running Tests- To run the tests, use PyTest:
+7. Running Tests- To run the tests, use PyTest:
     ```bash
     pytest
     ```
 
 ## API Endpoints
-GET /v1/api/categories/ - List all categories
-POST /v1/api/categories/ - Create a new category
-GET /v1/api/products/ - List all products
-POST /v1/api/products/ - Create a new product
-POST /v1/api/orders/ - Create a new order (with stock validation)
+- GET /v1/api/categories/ - List all categories
+- POST /v1/api/categories/ - Create a new category
+- GET /v1/api/products/ - List all products
+- POST /v1/api/products/ - Create a new product
+- POST /v1/api/orders/ - Create a new order (with stock validation)
